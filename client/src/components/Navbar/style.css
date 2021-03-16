@@ -1,13 +1,12 @@
 nav{
-background: #44A08D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vw;
+    height: 100px;
 }
 
-a.brand-logo {
-    font-family: 'Fascinate', cursive;
-    font-size: 50px;
-    /* width: fit-content;
-    margin: auto; */
+#logo{
+    margin: auto;
+    margin-left: 150px;
 }

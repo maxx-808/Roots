@@ -38,15 +38,13 @@ const Login = () => {
 
   return (
     <div>
-      <h4>Through your roots we grow together.</h4>
-      <h6>The app that allows you to connect cross-culturally and create multilingual conversations!</h6>
-
       <form onSubmit={submitLoginForm} className="login-form">
+        <h1 style={{padding:"auto"}}>Login:</h1>
         <label>email</label>
         <input onChange={onChange} type="text" name="email" />
         <label>Password</label>
         <input onChange={onChange} type="text" name="password" />
-        <input type="submit" name="Login" />
+        <input style={{marginTop:"20px", backgroundColor:"lightGrey", borderRadius:"10px"}} type="submit" name="Login" />
       </form>
     </div>
   );

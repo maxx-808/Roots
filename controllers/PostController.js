@@ -20,10 +20,10 @@ module.exports = {
   },
 
   getUserPosts: async (req, res) => {
-    console.log("hiiiii");
+    console.log("got users");
 
     try {
-      const allPosts = await Post.find({ userId: req.user });
+      const allPosts = await Post.find();
       res.json(allPosts);
     } catch (err) {
       console.log("ERROR WAS CREATED", err);

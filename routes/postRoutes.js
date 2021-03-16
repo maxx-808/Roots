@@ -4,6 +4,6 @@ const { newPost, getUserPosts } = require("../controllers/PostController");
 
 router.post("/", auth, newPost);
 
-router.get("/", auth, getUserPosts);
+router.get("/", getUserPosts);
 
 module.exports = router;

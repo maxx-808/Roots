@@ -21,10 +21,8 @@ const Register = () => {
 
   return (
     <div>
-      <h4>Through your roots we grow together.</h4>
-      <h6>The app that allows you to connect cross-culturally and create multilingual conversations!</h6>
-
       <form onSubmit={submit} className="reg-form">
+        <h1 style={{paddingTop:"20px"}}>SignUp:</h1>
         <label>Email</label>
         <input onChange={onChange} type="text" name="email" />
         <label>Password</label>
@@ -37,7 +35,7 @@ const Register = () => {
         <input onChange={onChange} type="text" name="native_lang" />
         <label>Language you want to learn:</label>
         <input onChange={onChange} type="text" name="learn_lang" />
-        <input type="submit" name="Register" />
+        <input style={{marginTop:"20px", backgroundColor:"lightGrey", borderRadius:"10px"}} type="submit" name="Register" />
       </form>
     </div>
   );
