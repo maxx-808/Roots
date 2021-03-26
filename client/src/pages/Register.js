@@ -46,6 +46,7 @@ const Register = () => {
   const passChange = (e) => {
     const passInput = document.getElementById("inputPass").value;
     const passCheckInput = document.getElementById("inputCheck").value;
+    const passErr = document.getElementById("passCheck");
     if (passInput !== passCheckInput) {
       passErr.classList.remove("hidden");
     }
@@ -53,7 +54,6 @@ const Register = () => {
       passErr.classList.add("hidden");
     }
   };
-  const passErr = document.getElementById("passCheck");
 
   return (
     <div>
